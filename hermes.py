@@ -89,6 +89,7 @@ def somethingElse():
         e.delete(0,END)
 
     oke=Button(read,text="Ok!",command=proceed)
+    oke.grid(row=1,column=1)
     read.mainloop()
 add=Button(frame,text="Add Numbers and Groups.",command=readList)
 add.grid(row=0,column=1)
